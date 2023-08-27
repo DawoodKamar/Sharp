@@ -9,22 +9,24 @@
 
   .header.scrolled {
     opacity: 0.90;
-    height: 3rem;
 
+  }
+  .logo{
+    font-family: Verdana;
   }
 
    .banner {
-    height: 4rem;
+    padding-inline: 2 rem;
+    height: 6rem;
     display: flex;
     margin-left: 10%;
     justify-content: space-between;
     align-items: center;
     transition: opacity 0.3s ease, height 0.3s ease;
+    max-width: 1200px;
   }
 
-  .banner.scrolled{
-    height: 3rem;
-  }
+
 
   .navbar {
  

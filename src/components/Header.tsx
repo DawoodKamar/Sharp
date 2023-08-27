@@ -66,9 +66,9 @@ export default function Header() {
   return (
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ""}`}>
       <div className={`${styles.banner} ${isScrolled ? styles.scrolled : ""}`}>
-        <Link href="/" className={"text-2xl font-sans text-white"}>
+        <Link href="/" className={"logo text-xl  font-medium text-white leading-tight transform scale-y-125"}>
           {" "}
-          Sharp Truck Trailer Repair
+          SHARP TRUCK <br></br>TRAILER REPAIR
         </Link>
         <div
           className={`${styles.hamburgerMenu} ${showMenu ? styles.open : ""}`}
