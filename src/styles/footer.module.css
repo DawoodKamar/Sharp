@@ -1,5 +1,15 @@
 .footerbg {
-    background-color: var(--_bg);
+    background-color: var(--_logo-color);
+}
+.link {
+  color: var(--_bg);
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: var(--_nav-links-hover-color);
 }
 
 .wrapper {
@@ -16,7 +26,7 @@
 .logo {
     font-family: Geneva, Tahoma, sans-serif;
     font-size: 2rem;
-    color: var(--_logo-color);
+    color: var(--_bg);
     padding: 0.5rem;
     margin: auto;
   }
@@ -24,7 +34,7 @@
   .line {
     width: 30px;
     height: 3px;
-    background-color: var(--_logo-color);
+    background-color: var(--_bg);
     margin: auto;
   }
 
@@ -40,6 +50,8 @@
     gap: 3rem;
     margin: 0;
     padding: 1rem;
+    color: var(--_bg);
+    
     
   }
 
@@ -54,7 +66,7 @@
         display: block;
         width: 20px;
         height:1.5px;
-        background-color: var(--_logo-color);
+        background-color: var(--_bg);
       }
 
 

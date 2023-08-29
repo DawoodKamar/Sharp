@@ -17,15 +17,15 @@ export default function Footer() {
         <nav className={styles.navbar}>
           <ul>
             <li>
-              <Link href="/">Home</Link>
+              <Link className={styles.link} href="/">Home</Link>
             </li>
             <div className={styles.lines}></div>
             <li>
-              <Link href="/About">About Us</Link>
+              <Link className={styles.link} href="/About">About Us</Link>
             </li>
             <div className={styles.lines}></div>
             <li>
-              <Link href="/Contact">Contact</Link>
+              <Link className={styles.link} href="/Contact">Contact</Link>
             </li>
             <div className={styles.lines}></div>
           </ul>

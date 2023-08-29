@@ -66,9 +66,9 @@ export default function Header() {
   return (
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ""}`}>
       <div className={`${styles.banner} ${isScrolled ? styles.scrolled : ""}`}>
-        <Link href="/" className={"logo text-xl  font-medium text-white leading-tight transform scale-y-125"}>
+        <Link href="/" className={"logo text-xl  font-extrabold leading-tight transform scale-y-125"}>
           {" "}
-          SHARP TRUCK <br></br>TRAILER REPAIR
+          &nbsp;SHARP  TRUCK <br></br>TRAILER REPAIR
         </Link>
         <div
           className={`${styles.hamburgerMenu} ${showMenu ? styles.open : ""}`}
@@ -91,13 +91,13 @@ export default function Header() {
         <nav className={styles.navbar}>
           <ul>
             <li>
-              <Link href="/">Home</Link>
+              <Link className={styles.link} href="/">Home</Link>
             </li>
             <li>
-              <Link href="/About">About Us</Link>
+              <Link className={styles.link} href="/About">About Us</Link>
             </li>
             <li>
-              <Link href="/Contact">Contact</Link>
+              <Link className={styles.link} href="/Contact">Contact</Link>
             </li>
            
           </ul>
@@ -110,19 +110,19 @@ export default function Header() {
       >
         <ul>
           <li>
-            <Link href="/" onClick={toggleMenu}>
+            <Link className={styles.link} href="/" onClick={toggleMenu}>
               Home
             </Link>
           </li>
           <div className={styles.lines}></div>
           <li>
-            <Link href="/About" onClick={toggleMenu}>
+            <Link className={styles.link} href="/About" onClick={toggleMenu}>
               About Us
             </Link>
           </li>
           <div className={styles.lines}></div>
           <li>
-            <Link href="/Contact" onClick={toggleMenu}>
+            <Link className={styles.link} href="/Contact" onClick={toggleMenu}>
               Contact
             </Link>
           </li>

@@ -25,7 +25,7 @@ export default function Home() {
           /></div>
         <div className={styles.heroSection}>
           <div className={styles.herohead}>
-            <h1 >Lorem ipsum dolor, sit amet cons ectetur adipi sicing elit. Tenetur</h1>
+            <h1 >Lorem ipsum dolor, sit amet cons ectetur adipi sicing elit. </h1>
           </div>
           <div className={styles.hook}>
             <p>

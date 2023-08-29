@@ -83,6 +83,7 @@
 
   .herohead{
     font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+    font-weight: 600;
   }
 
 
@@ -96,8 +97,8 @@
     width: fit-content;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
-    background: var(--_complement-color);
-    color: var(--_nav-links-color);
+    background: var(--_logo-color);
+    color: var(--_bg);
 
     display: inline-block;
     cursor: pointer;

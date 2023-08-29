@@ -5,21 +5,12 @@
 
 
 html, body {
-  --_bg: #2d2d2f;
-  --_logo-color: #f2f2f2;
-  --_nav-links-color: whitesmoke;
+  --_bg: #f2f2f2;
+  --_logo-color:#2d2d2f ;
+  --_nav-links-color: #2d2d2f ;
   --_nav-links-hover-color: lightgray;
-  --_complement-color: #737378;
+  --_complement-color: #86827e;
+  background-color: var(--_bg);
 }
-/*  #4c6c85*/
+/* whitesmoke #4c6c85*/
 
-a {
-  color: var(--_nav-links-color);
-  text-decoration: none;
-  transition-duration: 0.2s;
-}
-
-a:hover {
-  text-decoration: none;
-  color: var(--_nav-links-hover-color);
-}
