@@ -14,6 +14,7 @@ export default function Home() {
             width={1200}
             height={803}
             className={styles.img2}
+            priority
           />
         
           <Image
@@ -22,6 +23,7 @@ export default function Home() {
             width={640}
             height={390}
             className={styles.img1}
+            priority
           /></div>
         <div className={styles.heroSection}>
           <div className={styles.herohead}>
@@ -37,6 +39,31 @@ export default function Home() {
         </div>
 
 
+      </section>
+
+      <section className="flex items-center bg-gray-900 text-white py-20 w-full">
+        <div className="container mx-auto flex items-center justify-between">
+          <div className="w-1/2 relative">
+          <div
+              className="absolute inset-0"
+              style={{
+                background: 'radial-gradient(transparent, #111827 70%)',
+                mixBlendMode: 'normal',
+              }}
+            ></div>
+            <Image
+              src="/images/working.jpg"
+              alt="Your image description"
+              width={1118}
+              height={871}
+              priority
+            />
+          </div>
+          <div className="w-1/2 text-right">
+            <h1 className="text-5xl mb-5">Your Heading</h1>
+            <p>Your text here</p>
+          </div>
+        </div>
       </section>
     </main>
     </>
