@@ -1,3 +1,4 @@
+import Services from "@/components/Services";
 import styles from "../styles/home.module.css";
 import Image from "next/image";
 
@@ -41,30 +42,38 @@ export default function Home() {
 
       </section>
 
-      <section className="flex items-center bg-gray-900 text-white py-20 w-full">
-        <div className="container mx-auto flex items-center justify-between">
-          <div className="w-1/2 relative">
+      <section className="flex items-center bg-gray-900 text-white py-10 w-full">
+        <div className="container mx-auto flex items-center justify-between flex-col md:flex-row">
+          <div className="w-3/5 relative">
           <div
               className="absolute inset-0"
               style={{
-                background: 'radial-gradient(transparent, #111827 70%)',
+                background: 'radial-gradient(transparent, #111827 72%)',
                 mixBlendMode: 'normal',
               }}
             ></div>
             <Image
               src="/images/working.jpg"
-              alt="Your image description"
+              alt="mechanic working"
               width={1118}
               height={871}
               priority
+            
             />
           </div>
-          <div className="w-1/2 text-right">
-            <h1 className="text-5xl mb-5">Your Heading</h1>
-            <p>Your text here</p>
+          <div className="w-1/2 flex flex-col gap-7 pt-3 md:pl-10 md:pt-0">
+            <div><h1 className="text-3xl mb-5 md:text-4xl">Experience</h1>
+            <p >Over 20 years in the truck and trailer service industry</p></div>
+            <div><h1 className="text-3xl mb-5 md:text-4xl">Reliability</h1>
+            <p>Fully licenced, insured, and highly reliable mechanics you can
+                count on</p></div>
+            <div><h1 className="text-3xl mb-5 md:text-4xl">Dedication</h1>
+            <p>Committed to getting your fleet back on the road safely and
+                swiftly</p></div>
           </div>
         </div>
       </section>
+      <Services/>
     </main>
     </>
   )

@@ -11,6 +11,7 @@
     text-decoration: none;
     transition-duration: 0.2s;
     font-size: 1.2rem;
+    font-weight: 500;
   }
   
   .link:hover {
@@ -69,7 +70,7 @@
     right: 0.5rem;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.98;
+    opacity: 0.99;
     background-color: var(--_bg);
  
   }
