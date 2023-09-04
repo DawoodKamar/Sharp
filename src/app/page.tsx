@@ -62,7 +62,7 @@ export default function Home() {
             
             />
           </div>
-          <div className="w-1/2 flex flex-col gap-7 pt-3 md:pl-10 md:pt-0">
+          <div className="w-2/3 text-center md:text-left flex flex-col gap-7 pt-3 md:pl-10 md:pt-0">
             <div><h1 className="text-3xl mb-5 md:text-4xl">Experience</h1>
             <p >Over 20 years in the truck and trailer service industry</p></div>
             <div><h1 className="text-3xl mb-5 md:text-4xl">Reliability</h1>

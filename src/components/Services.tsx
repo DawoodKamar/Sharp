@@ -7,7 +7,7 @@ export default function Services(){
         <>
         <section className=" flex flex-col gap-9 justify-center content-center pt-10 pb-10">
 
-        <h1 className="text-4xl sm:text-5xl  mx-auto">Types of Services</h1>
+        <h1 className="text-4xl text-[#111827] font-semibold sm:text-5xl  mx-auto">Types of Services</h1>
 
         <div className={`${styles.parent} content-center`}>
 <div className={`${styles.div2}`}>Service </div>
