@@ -9,8 +9,10 @@ export default function Area(){
         <h1 className="text-4xl sm:text-5xl  mx-auto text-[#f2f2f2]">Service Area</h1>
         
         <div className="flex flex-col md:flex-row gap-8 justify-center my-auto">
-        <h1 className="text-3xl sm:text-4xl my-auto text-[#f2f2f2]">Servicing Kitdschener, waterloo Kitchener,<br></br> waterloo Kitchener, waterloo Kitchener, waterloo</h1>
-        <Map/>
+            <h1 className="text-3xl sm:text-4xl m-auto text-center text-[#f2f2f2] max-w-lg ">Servicing Kitchener, waterloo Kitchener, waterloo Kitchener, waterloo Kitchener, waterloo</h1>
+            <div className="flex md:w-1/2">
+                <Map/>
+            </div>
         </div>
 
         </section>

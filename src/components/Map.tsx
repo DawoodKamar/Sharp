@@ -31,7 +31,7 @@ function Map() {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={9}
+        zoom={8.5}
       >
        <Polygon 
           paths={coordinates}
