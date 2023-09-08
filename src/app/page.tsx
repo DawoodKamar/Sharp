@@ -2,6 +2,7 @@ import Services from "@/components/Services";
 import styles from "../styles/home.module.css";
 import Image from "next/image";
 import Area from "@/components/Area";
+import ContactForm from "@/components/ContactForm";
 
 
 export default function Home() {
@@ -76,6 +77,7 @@ export default function Home() {
       </section>
       <Services/>
       <Area/>
+      <ContactForm/>
     </main>
     </>
   )

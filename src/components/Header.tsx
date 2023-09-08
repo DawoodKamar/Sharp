@@ -92,13 +92,17 @@ export default function Header() {
           <ul>
             <li>
               <Link className={styles.link} href="/">Home</Link>
+            </li>            
+            <li>
+              <Link className={styles.link} href="/ServiceArea">Service Area</Link>
             </li>
             <li>
-              <Link className={styles.link} href="/About">About Us</Link>
+              <Link className={styles.link} href="/AboutUs">About Us</Link>
             </li>
             <li>
-              <Link className={styles.link} href="/Contact">Contact</Link>
+              <Link className={styles.link} href="/ContactUs">Contact</Link>
             </li>
+
            
           </ul>
         </nav>
@@ -116,16 +120,23 @@ export default function Header() {
           </li>
           <div className={styles.lines}></div>
           <li>
-            <Link className={styles.link} href="/About" onClick={toggleMenu}>
+          <Link className={styles.link} href="/ServiceArea" onClick={toggleMenu}>
+            Service Area
+            </Link>
+          </li>
+          <div className={styles.lines}></div>
+          <li>
+            <Link className={styles.link} href="/AboutUs" onClick={toggleMenu}>
               About Us
             </Link>
           </li>
           <div className={styles.lines}></div>
           <li>
-            <Link className={styles.link} href="/Contact" onClick={toggleMenu}>
+            <Link className={styles.link} href="/ContactUs" onClick={toggleMenu}>
               Contact
             </Link>
           </li>
+
           
           <div className={styles.lines}></div>
         </ul>

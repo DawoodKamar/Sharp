@@ -10,7 +10,7 @@ export default function Area(){
         
         <div className="flex flex-col md:flex-row gap-8 justify-center my-auto">
             <h1 className="text-3xl sm:text-4xl m-auto text-center text-[#f2f2f2] max-w-lg ">Servicing Kitchener, waterloo Kitchener, waterloo Kitchener, waterloo Kitchener, waterloo</h1>
-            <div className="flex md:w-1/2">
+            <div className="flex md:w-1/2 overflow-hidden rounded-lg">
                 <Map/>
             </div>
         </div>

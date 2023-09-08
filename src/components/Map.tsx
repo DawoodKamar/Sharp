@@ -7,7 +7,7 @@ import { GoogleMap, LoadScript, Polygon } from '@react-google-maps/api';
 function Map() {
     const containerStyle = {
         width: '800px',
-        height: '500px'
+        height: '400px'
       };
       
       const center = {
