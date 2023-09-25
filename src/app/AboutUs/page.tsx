@@ -22,7 +22,7 @@ export default function AboutUs() {
         {/* Text */}
         <div className={styles.text}>
           <p>
-            At Sharp Truck Trailer Repair inc, we understand that truck trailer breakdowns can happen anytime, anywhere and when they do, you need a trusted partner by your side. We're a team of dedicated mobile truck trailer mechanics with a passion for getting our clients back on the road.
+            At Sharp Truck Trailer Repair inc, we understand that truck trailer breakdowns can happen anytime, anywhere and when they do, you need a trusted partner by your side. We&apos;re a team of dedicated mobile truck trailer mechanics with a passion for getting our clients back on the road.
           </p>
         </div>
       </div>
@@ -41,7 +41,7 @@ export default function AboutUs() {
         {/* Text */}
         <div className={styles.text}>
           <p>
-            With over 20 years in the industry, we've honed our skills and amassed extensive hands-on experience. Our technicians are not only licensed and insured but also trained to handle an array of issues, ensuring that we can tackle any challenge your truck or trailer might face.
+            With over 20 years in the industry, we&apos;ve honed our skills and amassed extensive hands-on experience. Our technicians are not only licensed and insured but also trained to handle an array of issues, ensuring that we can tackle any challenge your truck or trailer might face.
           </p>
         </div>
       </div>
@@ -79,8 +79,8 @@ export default function AboutUs() {
       <div className={styles.text}>
         <p>
           Rapid Response: Our mobile units are always ready to address your needs, minimizing your downtime and ensuring you can proceed with your journey.
-          Customer-Centric: We pride ourselves on our friendly and knowledgeable service. For us, it's not just about fixing trucks and trailers; it's about building lasting relationships with our clients.
-          Servicing Leaders: We've had the privilege of servicing some of North America's largest fleets, attesting to our expertise and trustworthiness in the field.
+          Customer-Centric: We pride ourselves on our friendly and knowledgeable service. For us, it&apos;s not just about fixing trucks and trailers; it&apos;s about building lasting relationships with our clients.
+          Servicing Leaders: We&apos;ve had the privilege of servicing some of North America&apos;s largest fleets, attesting to our expertise and trustworthiness in the field.
         </p>
       </div>
     </div>
