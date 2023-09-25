@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           <div className="w-2/3 text-center md:text-left flex flex-col gap-7 pt-3 md:pl-10 md:pt-0">
             <div><h1 className="text-3xl mb-5 md:text-4xl">Experience</h1>
-            <p >Servicing North America's Largest Fleets with Licensed, Insured Expertise – Friendly & Knowledgeable</p></div>
+            <p >Servicing North America&apos;s Largest Fleets with Licensed, Insured Expertise – Friendly & Knowledgeable</p></div>
             <div><h1 className="text-3xl mb-5 md:text-4xl">Reliability</h1>
             <p>Reliable and affordable with over 20 years in business</p></div>
             {/* <div><h1 className="text-3xl mb-5 md:text-4xl">Dedication</h1>
