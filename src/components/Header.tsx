@@ -2,9 +2,12 @@
 import Link from "next/link";
 import styles from "../styles/header.module.css";
 import React, { useState, useEffect, useRef } from "react";
+import { Yellowtail } from '@next/font/google'
 
-
-
+const yellowtail = Yellowtail({
+  subsets: ['latin'],
+  weight: '400',
+})
 export default function Header() {
   const [showMenu, setShowMenu] = useState<boolean>(false);
   // showmenu is a variable (initially set to false) |setshowmenu is a function that will update the variable
@@ -12,7 +15,7 @@ export default function Header() {
   const openMenuRef = useRef<HTMLDivElement | null>(null);
 
   // function that toggles show menu between true and false
-  const toggleMenu = (): void  => {
+    const toggleMenu = (): void  => {
     setShowMenu(prev => !prev); //toggle previous state to new state
   };
 
@@ -68,7 +71,7 @@ export default function Header() {
       <div className={`${styles.banner} ${isScrolled ? styles.scrolled : ""}`}>
         <Link href="/" className={"logo text-xl  font-extrabold leading-tight transform scale-y-125"}>
           {" "}
-          &nbsp;SHARP  TRUCK <br></br>TRAILER REPAIR
+          <h1 className= {yellowtail.className}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHARP  TRUCK <br></br>TRAILER REPAIR &nbsp;INC.</h1>
         </Link>
         <div
           className={`${styles.hamburgerMenu} ${showMenu ? styles.open : ""}`}
