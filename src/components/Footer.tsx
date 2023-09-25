@@ -1,6 +1,12 @@
 
 import Link from "next/link";
 import styles from "../styles/footer.module.css";
+import { Yellowtail } from '@next/font/google'
+
+const yellowtail = Yellowtail({
+  subsets: ['latin'],
+  weight: '400',
+})
 
 
 export default function Footer() {
@@ -10,7 +16,7 @@ export default function Footer() {
         <div className={styles.top}>
           <Link href="/" className={styles.logo}>
             {" "}
-           Sharp Truck Trailer Repair
+           <h2 className= {yellowtail.className}>Sharp Truck Trailer Repair</h2>
           </Link>
         </div>
         <div className={styles.line}></div>

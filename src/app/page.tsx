@@ -68,9 +68,6 @@ export default function Home() {
             <p >Servicing North America&apos;s Largest Fleets with Licensed, Insured Expertise – Friendly & Knowledgeable</p></div>
             <div><h1 className="text-3xl mb-5 md:text-4xl">Reliability</h1>
             <p>Reliable and affordable with over 20 years in business</p></div>
-            {/* <div><h1 className="text-3xl mb-5 md:text-4xl">Dedication</h1>
-            <p>Committed to getting your fleet back on the road safely and
-                swiftly</p></div> */}
           </div>
         </div>
       </section>

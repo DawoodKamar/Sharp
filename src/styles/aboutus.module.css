@@ -8,6 +8,9 @@
     flex-wrap: wrap;
     padding: 0 2rem;
 }
+.heading {
+    padding-bottom: 5px;
+}
 
 .About h1 {
     font-size: clamp(2rem, 3vw, 3rem);
@@ -20,7 +23,7 @@
 }
   
 .About h3 {
-    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-size: clamp(1.25rem, 1.5vw, 2rem);
   
 }
 
