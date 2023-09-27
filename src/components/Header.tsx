@@ -105,10 +105,15 @@ export default function Header() {
             <li>
               <Link className={styles.link} href="/ContactUs">Contact</Link>
             </li>
-
+        <Link href="https://buy.stripe.com/test_00g14J2b97v1gzm9AA">
+          <button className="bg-[#fba133] hover:bg-orange-600 text-white font-bold py-2 px-4 rounded">
+           Payment Options
+          </button>
+        </Link>
            
           </ul>
         </nav>
+
       </div>
 
       <nav
@@ -139,9 +144,13 @@ export default function Header() {
               Contact
             </Link>
           </li>
-
           
           <div className={styles.lines}></div>
+          <Link href="https://buy.stripe.com/test_00g14J2b97v1gzm9AA">
+          <button className="bg-[#fba133] hover:bg-orange-600 text-white font-bold py-2 px-4 rounded">
+           Payment Options
+          </button>
+        </Link>
         </ul>
       </nav>
     </header>
